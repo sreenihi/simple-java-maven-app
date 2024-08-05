@@ -1,0 +1,21 @@
+pipeline {
+    agent any 
+    stages {
+        stage ("phase 1") {
+            steps {
+                echo "this is first line initiated"
+            }
+        }
+
+        stage ("phase 2") {
+            steps {
+                echo "this is fsecond line initiated"
+            }
+        }
+        stage ("phase 3") {
+            steps {
+                echo "tdone"
+            }
+        }
+    }
+}
