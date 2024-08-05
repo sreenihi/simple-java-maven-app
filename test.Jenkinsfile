@@ -17,5 +17,12 @@ pipeline {
                 echo "tdone"
             }
         }
+
+stage ("phase 4") {
+            steps {
+                echo "hi ra bujji its done"
+            }
+        }
+
     }
 }
